@@ -30,6 +30,7 @@ ul {
 .header-content {
     display: flex;
     justify-content: center;
+    gap: 30px;
     padding: 50px;
 }
 
@@ -100,9 +101,49 @@ button {
 
 .quote-container p {
     font-size: 32px;
+    font-weight: 100;
 }
 
 .quote {
     align-self: flex-end;
     font-weight: 600;
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    color: white;
+    background: #40513B;
+    margin: 50px;
+    padding: 30px 50px;
+    border-radius: 4px;
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+
+.sign-up button {
+    border: 2px solid white;
+    padding: 10px;
+    width: 90.44px;
+    height: 40.44px;
+    align-self: center;
+    flex: 1;
+}
+
+.text {
+    flex-grow: 2;
+}
+
+.footer {
+    background: #40513B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
